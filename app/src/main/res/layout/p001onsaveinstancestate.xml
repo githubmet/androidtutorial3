@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonP001"
+        android:text="Click for increase the number.\nRotate your phone to see the power of onSaveInstanceSatate :)"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewP001"
+        android:layout_below="@+id/buttonP001"
+        android:minLines="3"
+        android:background="#FFBB00"
+        android:text="You are not click the button yet"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
