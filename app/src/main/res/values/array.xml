@@ -12,6 +12,8 @@
         <item>P008CreatingLinearLayout</item>
         <item>P009FacabookDizayn</item>
         <item>P010CreateUIProgramatically</item>
+        <item>P011Snackbar</item>
+        <item>P012SetDataToParcelable</item>
     </string-array>
 
 </resources>

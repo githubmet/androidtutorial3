@@ -41,7 +41,10 @@
 
         <activity android:name=".P010CreateUIProgramatically"></activity>
 
+        <activity android:name=".P011Snackbar"></activity>
 
+        <activity android:name=".P012SetDataToParcelable"></activity>
+        <activity android:name=".P012GetDataFromParcelable"></activity>
 
     </application>
 
