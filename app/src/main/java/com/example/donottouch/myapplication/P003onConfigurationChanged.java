@@ -5,7 +5,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class P003configChangesOrientation extends Activity {
+public class P003onConfigurationChanged extends Activity {
     TextView textViewP003;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

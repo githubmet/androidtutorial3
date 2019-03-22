@@ -16,8 +16,6 @@ public class P002Map extends Activity {
     TextView textViewP124;
     TextView textView2P124;
     TextView textView3P124;
-    TextView textView4P124;
-    TextView textView5P124;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +24,6 @@ public class P002Map extends Activity {
         textViewP124=(TextView)findViewById(R.id.textViewP124);
         textView2P124=(TextView)findViewById(R.id.textView2P124);
         textView3P124=(TextView)findViewById(R.id.textView3P124);
-        textView4P124=(TextView)findViewById(R.id.textView4P124);
-        textView5P124=(TextView)findViewById(R.id.textView5P124);
     }
 
     public void onClickP124(View view) {
@@ -100,66 +96,7 @@ public class P002Map extends Activity {
 
         textView3P124.setText(katar);
     }
-    public void onClick4P124(View view){
-/*
-        List listSade=new ArrayList();
-        listSade.add("Picasso");
-        listSade.add("Retrofit");
-        listSade.add("JSON");
-        listSade.add("Api");
-
-        String katar="";
-        for(int i=0;i<listSade.size();i++){
-            katar +=listSade.get(i)+" ";   //.toString() ve implicit birlestirme yapmasan da sorun yok ! belkide bastaki "" densebep sorun yok.
-        }
-*/
-        List<String> genericList=new ArrayList<String>();
-        genericList.add("Picasso");
-        genericList.add("Retrofit");
-        genericList.add("JSON");
-        genericList.add("Api");
-
-        String katar="";
-        for(int i=0;i<genericList.size();i++){
-            katar +=genericList.get(i)+" ";
-        }
-        textView4P124.setText(katar);
-
-        //iterator denemedik
-        //List<> bu zimbirtinin adi Generic Lists
-    }
-    public void onClick5P124(View view){
-
-        Field[] field=MemberForAClass.class.getDeclaredFields();
-        textView5P124.setText((String.valueOf(field.length)));  //sadece asagidaki private elemanlarin 1 eksigi olarak cikarim yaptik
-        //sonuc 2
-    }
-    public class MemberForAClass{
-        private String Id;
-        private String Name;
-        private String Surname;
-
-        public String getSurname() {
-            return Surname;
-        }
-
-        public String getId() {
-            return Id;
-        }
-
-        public String getName() {
-            return Name;
-        }
-    }
-
 }
-
-
-//--
-//for(Map gex : map.keySet()){
-//sb.append(gex.get()) //bu sekilde her bir deger icin key belirtmen gerekir
-//}
-
 
 
 

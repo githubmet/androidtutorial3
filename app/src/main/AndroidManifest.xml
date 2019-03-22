@@ -23,7 +23,7 @@
 
         <activity android:name=".P002Map"></activity>
 
-        <activity android:name=".P003configChangesOrientation"
+        <activity android:name=".P003onConfigurationChanged"
             android:configChanges="orientation|screenSize"
         />
 
@@ -33,15 +33,9 @@
 
         <activity android:name=".P006addTextChangeListener"></activity>
 
-        <activity android:name=".P007CustomToast"></activity>
-
-        <activity android:name=".P008CreatingLinearLayout"></activity>
-
         <activity android:name=".P009FacabookDizayn"></activity>
 
-        <activity android:name=".P010CreateUIProgramatically"></activity>
-
-        <activity android:name=".P011Snackbar"></activity>
+        <activity android:name=".P011PutButtonOnSnackbar"></activity>
 
         <activity android:name=".P012SetDataToParcelable"></activity>
         <activity android:name=".P012GetDataFromParcelable"></activity>

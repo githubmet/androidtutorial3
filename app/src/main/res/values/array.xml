@@ -4,15 +4,13 @@
     <string-array name="activity_name">
         <item>P001onSaveInstanceState</item>
         <item>P002Map</item>
-        <item>P003configChangesOrientation</item>
+        <item>P003onConfigurationChanged</item>
         <item>P004setOnClickListenerObject</item>
         <item>P005ObjectOvverideTosetOnClickListener</item>
         <item>P006addTextChangeListener</item>
 
-        <item>P008CreatingLinearLayout</item>
         <item>P009FacabookDizayn</item>
-        <item>P010CreateUIProgramatically</item>
-        <item>P011Snackbar</item>
+        <item>P011PutButtonOnSnackbar</item>
         <item>P012SetDataToParcelable</item>
     </string-array>
 

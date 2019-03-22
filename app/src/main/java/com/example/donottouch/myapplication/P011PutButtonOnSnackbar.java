@@ -8,12 +8,13 @@ import android.widget.Button;
 import android.view.View;
 import android.widget.Toast;
 
-public class P011Snackbar extends Activity implements View.OnClickListener {
+public class P011PutButtonOnSnackbar extends Activity implements View.OnClickListener {
     CoordinatorLayout coordinatorLayoutP011;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.p011snackbar);
+
         coordinatorLayoutP011=(CoordinatorLayout)findViewById(R.id.coordinatorLayoutP011);
         Button buttonP011=(Button)findViewById(R.id.buttonP011);
         Button buttonFromSnackbarToToastP011=(Button)findViewById(R.id.buttonFromSnackbarToToastP011);
@@ -34,7 +35,7 @@ public class P011Snackbar extends Activity implements View.OnClickListener {
                 snackbar.setAction(R.string.set_action_name, new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                   Toast.makeText(P011Snackbar.this,"Hello from supersedes toast :)",
+                   Toast.makeText(P011PutButtonOnSnackbar.this,"Hello from supersedes toast :)",
                            Toast.LENGTH_SHORT).show();
                     }
                 });
