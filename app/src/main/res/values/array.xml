@@ -2,6 +2,9 @@
 <resources>
 
     <string-array name="activity_name">
+
+        <item>P000MapStringClass</item>
+
         <item>P001onSaveInstanceState</item>
         <item>P002Map</item>
         <item>P003onConfigurationChanged</item>

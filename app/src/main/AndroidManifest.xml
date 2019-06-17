@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".P000MapStringClass"/>
+
         <activity android:name=".P001onSaveInstanceState"></activity>
 
         <activity android:name=".P002Map"></activity>

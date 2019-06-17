@@ -7,8 +7,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonP001"
-        android:text="Click for increase the number.\nRotate your phone to see the power of onSaveInstanceSatate :)"
+        android:text="@string/counter"
         android:layout_centerInParent="true"
+        android:onClick="onClickMtdP001"
         />
     <TextView
         android:layout_width="match_parent"
@@ -16,8 +17,7 @@
         android:id="@+id/textViewP001"
         android:layout_below="@+id/buttonP001"
         android:minLines="3"
-        android:background="#FFBB00"
-        android:text="You are not click the button yet"
+        android:text="@string/text"
         android:gravity="center"/>
 
 

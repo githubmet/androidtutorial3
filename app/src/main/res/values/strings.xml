@@ -2,4 +2,18 @@
     <string name="app_name">androidtutorial3</string>
     <string name="action_settings">Settings</string>
     <string name="set_action_name">setActionName</string>
+
+    <string name="text">text</string>
+    <string name="counter">counter</string>
+    <string name="create_class">create class</string>
+    <string name="get_second_class">get second class</string>
+
+    <string name="show_snackbar">show snackbar</string>
+    <string name="put_button_on_snackbar">put button on snackbar</string>
+    <string name="click">click</string>
+    <string name="hello">Hello</string>
+
+    <string name="name">name</string>
+    <string name="surname">surname</string>
+
 </resources>

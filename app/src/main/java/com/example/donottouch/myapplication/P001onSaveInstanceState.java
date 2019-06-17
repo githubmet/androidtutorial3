@@ -6,8 +6,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
 
-public class P001onSaveInstanceState extends Activity implements View.OnClickListener {
-    Button buttonP001;
+public class P001onSaveInstanceState extends Activity {
     TextView textViewP001;
     int counter=0;
     static final String COUNTER_INT_KEY="counterIntKey";
@@ -17,9 +16,7 @@ public class P001onSaveInstanceState extends Activity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.p001onsaveinstancestate);
 
-        buttonP001=(Button)findViewById(R.id.buttonP001);
         textViewP001=(TextView)findViewById(R.id.textViewP001);
-        buttonP001.setOnClickListener(this);
 
         if(savedInstanceState != null){
            counter= savedInstanceState.getInt(COUNTER_INT_KEY,0);
@@ -30,12 +27,9 @@ public class P001onSaveInstanceState extends Activity implements View.OnClickLis
         }
     }
 
-    @Override
-    public void onClick(View v) {
-        if(v.getId()==buttonP001.getId()){
-            counter +=1;
-            textViewP001.setText("You clicked the button "+counter+" times :)");
-        }
+    public void onClickMtdP001(View view) {
+        counter +=1;
+        textViewP001.setText("You clicked the button "+counter+" times :)");
     }
 
     @Override

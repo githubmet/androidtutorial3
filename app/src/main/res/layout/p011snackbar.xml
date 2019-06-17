@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/coordinatorLayoutP011">
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="There will be peace in the valley"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="To see a snackbar message, please click the button"
-            android:id="@+id/buttonP011"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="There will be no saddnest in the valley"/>
+            android:text="@string/show_snackbar"
+            android:onClick="onClickShowMtdP011"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="buttonFromSnackbarToToast"
-            android:id="@+id/buttonFromSnackbarToToastP011"/>
-    </LinearLayout>
+            android:text="@string/put_button_on_snackbar"
+            android:onClick="onClickPutMtdP011"/>
 
-</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
